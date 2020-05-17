@@ -80,9 +80,7 @@ h1,h2,h3,h4,h5,h6{
     margin-left: 64px;
 }
 @media screen and (max-width:992px){
-    body{
-        padding-top: 50px;
-    }
+    
     .header{
         padding-right: 6.25%;
         padding-left: 6.25%;
@@ -98,6 +96,9 @@ h1,h2,h3,h4,h5,h6{
     }
 }
 @media screen and (max-width:767px){
+    body{
+        padding-top: 50px;
+    }
     .header{
         height: 50px;
         flex-wrap: wrap;

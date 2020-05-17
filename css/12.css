@@ -1,0 +1,78 @@
+.font-Roboto-medium{
+    font-family:"Roboto",Medium;
+}
+.font-Roboto-Regular{
+    font-family:"Roboto";
+}
+.font-Roboto-bold{
+    font-family:"Roboto",bold;
+    font-weight: bold;
+}
+.font-Roboto-italic{
+    font-family:"Roboto";
+    font-style: italic;
+    font-weight: bold;
+}
+.style-flex{
+    display: flex;
+}
+.style-betwween{
+   justify-content: space-between;
+}
+.container-width{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.container-input-atuo{
+    max-width: 792px;
+    margin: 0 auto;
+}
+/*.container{
+    padding-top: 64px;
+    padding-bottom: 80px;
+}*/
+.container-h2-mb{
+  margin-bottom: 60px;
+}
+.container-from-h2-mb{
+    margin-bottom: 24px;
+}
+.container-h2-fontstyle{
+    font-size: 48px;
+}
+.bcColor-red{
+    background-color: #AA0601;
+}
+.bcColor-white{
+    background-color: #fff;
+}
+.fontColor-red{
+  color:#AA0601;
+}
+.fontColor-darkred{
+    color: #650300;
+}
+.bcColor-lightred{
+    background-color:#AA06010D;
+}
+.fontColor-white{
+    color: #fff;
+}
+.fontColor-gray{
+    color: #707070;
+}
+.fontSize-16{
+  font-size: 16px;
+}
+.fontSize-20{
+    font-size: 20px;
+  }
+.fontSize-32{
+    font-size: 32px;
+  }
+.fontSize-{
+    font-size: 36px;
+  }  
+.fontAlign-center{
+    text-align: center;
+}  

@@ -52,6 +52,9 @@
 .fontColor-darkred{
     color: #650300;
 }
+.bcColor-darkred{
+    background-color: #650300;;
+}
 .bcColor-lightred{
     background-color:#AA06010D;
 }

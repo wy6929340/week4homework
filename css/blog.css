@@ -1,0 +1,21 @@
+.blogbar {
+  height: 56px;
+}
+
+.blogMenu {
+  height: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.blogMenulist {
+  width: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blogMenulist .blogMenu-a {
+  font-size: 20px;
+}

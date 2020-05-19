@@ -1,17 +1,140 @@
+.blog{
+    position: relative;
+}
 .blogbar{
     height: 56px;
+    position: fixed;
+    top:108px;
+    left:0;
+    right:0;
 }
 .blogMenu{
     height: 100%;
     justify-content: space-between;
+    
 }
 .blogMenulist{
-    width: 50%;
+    width: 40%;
     align-items: center;
+    justify-content: space-between;
+    
     .blogMenulist-list{
         
     }
     .blogMenu-a{
         font-size: 20px;
     }
+}
+.searchbox{
+    align-items: center;
+}
+.blogMainlist{
+    margin-top: 144px;
+    
+}
+.blogMainlist-list{
+      justify-content: space-between;  
+      .blogMainlist-img{
+          width: 588px;
+    }
+
+      .blogMainlist-txt{
+          width: 588px;
+      }  
+}
+
+.blogMainlist-title{
+    .blogMainlist-h2{
+        font-size: 32px;
+    }
+    .blockMainlist-smallbox{
+        justify-content: space-between;
+        .blogMainlist-smalltitle{
+            font-size: 20px;
+        }
+        .blogMainlist-date{
+            font-size: 16px;
+        }
+    }
+
+}
+.blogMainlist-pbox{
+    margin-top: 40px;
+    .blogMainlist-p{
+        font-size: 20px;
+        color: #555555;
+        .blogMainlist-p-span{
+            display: none;
+        }
+    }
+    .blogMainlist-MoreBtn{
+        display: block;
+        margin-top: 32px;
+    }
+    .blogMainlist-MoreBtn-a{
+        font-size: 36px;
+        color: #000000;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        i{
+            margin-left: 8px;
+        }
+    }
+    .blogMainlist-MoreBtn-a::after{
+        content:"";
+    }
+}
+@media screen and (max-width:992px){
+    .blogMenu{
+        width: 87.5%;
+        .blogMenulist{
+            width: 60%;
+        }
+    }
+    .blogMain{
+        width: 87.5%;
+    }
+    .blogMainlist-list{
+        .blogMainlist-img{
+            width: 48%;
+        }
+
+        .blogMainlist-txt{
+            width: 48%;
+        }  
+    }
+    .blogMainlist-title{
+        .blogMainlist-h2{
+            font-size: 20px;
+        }
+        .blockMainlist-smallbox{
+            
+            .blogMainlist-smalltitle{
+                font-size: 16px;
+            }
+            .blogMainlist-date{
+                font-size: 14px;
+            }
+        }
+    
+    }
+    .blogMainlist-pbox{
+        margin-top: 16px;
+        .blogMainlist-p{
+            font-size: 14px;
+            color: #555555;
+            .blogMainlist-p-span{
+                display: inline;
+            }
+        }
+        .blogMainlist-MoreBtn{
+            display: none;
+        
+        }
+    }
+    
+        
+
+
 }

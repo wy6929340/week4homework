@@ -13,6 +13,11 @@
     font-style: italic;
     font-weight: bold;
 }
+.font-Roboto-black{
+    font-family: "Roboto",black;
+    font-weight: bolder;
+     
+}
 .style-flex{
     display: flex;
 }
